@@ -1,3 +1,8 @@
+:root {
+  --green-clr: #14bb83;
+  --green-clr-2: #699e34;
+}
+
 .grid---about-me {
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr;
@@ -73,6 +78,11 @@
   margin-bottom: 0;
 }
 
+.header-link > p:not(.project) {
+  color: var(--green-clr);
+}
+
+/*  */
 .arrow-wrapper {
   padding: 8px;
 }
@@ -208,6 +218,10 @@
 
 .return-home-icon {
   width: 20px;
+}
+
+.tagline {
+  color: var(--green-clr-2);
 }
 
 #h3-heading-wrapper,
