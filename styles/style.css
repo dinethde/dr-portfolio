@@ -1016,6 +1016,18 @@ a.sw-item-button:hover {
   .skill-card-wrapper {
     margin-left: 0;
   }
+
+  .nav-left-wrapper .nav-items-wrapper .nav-item-wrapper:nth-child(-n + 3) {
+    display: none;
+  }
+
+  .skills-card-wrapper {
+    flex-flow: wrap;
+    padding-left: 0rem;
+  }
+  nav {
+    padding: 0px 0.5rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1039,6 +1051,10 @@ a.sw-item-button:hover {
 
   .main-img-holder {
     transform: rotate(12deg);
+  }
+
+  .nav-right-wrapper .nav-items-wrapper .nav-item-wrapper:nth-child(1) {
+    display: none;
   }
 }
 
