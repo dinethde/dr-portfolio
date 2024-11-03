@@ -1,11 +1,10 @@
-/* https://fluid-builder.webflow.io/?max=90&min=20&g=--size--0-5rem,0.5,0.25_--size--1rem,1,1_--size--1-25rem,1.25,1_--size--1-5-2rem,1.25,0.75_--size--1-5rem,1.5,1.25_--size--1-75rem,1.75,1.5_--size--2-1rem,2,1_--size--2rem,2,1.75_--size--2-5rem,2.5,2_--size--3rem,3,2.5_--size--3-5rem,3.5,2.375_--size--4-2rem,4,2.25_--size--4rem,4,3_--size--4-5rem,4.5,2.75_--size--5rem,5,2_--size--5-5rem,5.5,3.25_--size--6rem,6,3.5_--size--6-5rem,6.5,3.75_--size--7rem,7,4_--size--7-5rem,7.5,4.25_--size--8rem,8,4.5_--size--8-5rem,8.5,4.75_--size--9rem,9,5_--size--9-5rem,9.5,5.25_--size--10rem,10,4_--size--11rem,11,5.75_--size--12rem,12,6_--size--13rem,13,6.5_--size--14rem,14,7_--size--15rem,15,7.5_--size--16rem,16,12.5_--border-radius--outer,2.0625,1.5625_--border-radius--inner,2,1.5_--padding-horizontal--main,7.5,1_--big-card--width,61.25,18_--big-card--height,37.5,14,t_--sw-card--width,41,20_--sw-card--height,28.125,18_--main-image1--width,16,12.5_--main-image1--height,19,15_--main-image2--width,14,11.5_--main-image2--height,17,14&g=:1.26,1.125:--display--font-size,5,2.03_--h1--font-size,3.97,1.8_--h2--font-size,3.15,1.6_--h3--font-size,2.5,1.42_--h4--font-size,1.98,1.27_--h5--font-size,1.57,1.13_--h6--font-size,1.25,1,t&g=:1.2,1.14:--text-large--font-size,1.51,1.3_,1.26,1.14_--text-main--font-size,1.05,1_--text-small--font-size,0.875,0.875,t */
+/* https://fluid-builder.webflow.io/?max=90&min=20&g=--size--0-5rem,0.5,0.25_--size--1rem,1,1_--size--1-25rem,1.25,1_--size--1-5rem,1.5,1.25_--size--1-75rem,1.75,1.5_--size--2-1rem,2,1_--size--2rem,2,1.75_--size--2-5rem,2.5,2_--size--3rem,3,2.5_--size--3-5rem,3.5,2.375_--size--4-2rem,4,2.25_--size--4rem,4,3_--size--4-5rem,4.5,2.75_--size--5rem,5,2_--size--5-5rem,5.5,3.25_--size--6rem,6,3.5_--size--6-5rem,6.5,3.75_--size--7rem,7,4_--size--7-5rem,7.5,4.25_--size--8rem,8,4.5_--size--8-5rem,8.5,4.75_--size--9rem,9,5_--size--9-5rem,9.5,5.25_--size--10rem,10,4_--size--11rem,11,5.75_--size--12rem,12,6_--size--13rem,13,6.5_--size--14rem,14,7_--size--15rem,15,7.5_--size--16rem,16,12.5_--border-radius--outer,2.0625,1.5625_--border-radius--inner,2,1.5_--padding-horizontal--main,7.5,1_--big-card--width,61.25,20_--big-card--height,37.5,18_--main-image1--width,16,12.5_--main-image1--height,19,15_--developer-image--height,45,26,t&g=:1.26,1.125:--display--font-size,5,2.03_--h1--font-size,3.97,1.8_--h2--font-size,3.15,1.6_--h3--font-size,2.5,1.42_--h4--font-size,1.98,1.27_--h5--font-size,1.57,1.13_--h6--font-size,1.25,1,t&g=:1.2,1.14:--text-large--font-size,1.51,1.3_,1.26,1.14_--text-main--font-size,1.05,1_--text-small--font-size,0.875,0.875,t */
 
 /* fallback for older browsers */
 :root {
   --size--0-5rem: 0.5rem;
   --size--1rem: 1rem;
   --size--1-25rem: 1.25rem;
-  --size--1-5-2rem: 1.25rem;
   --size--1-5rem: 1.5rem;
   --size--1-75rem: 1.75rem;
   --size--2-1rem: 2rem;
@@ -38,12 +37,9 @@
   --padding-horizontal--main: 7.5rem;
   --big-card--width: 61.25rem;
   --big-card--height: 37.5rem;
-  --sw-card--width: 41rem;
-  --sw-card--height: 28.125rem;
   --main-image1--width: 16rem;
   --main-image1--height: 19rem;
-  --main-image2--width: 14rem;
-  --main-image2--height: 17rem;
+  --developer-image--height: 45rem;
   --display--font-size: 5rem;
   --h1--font-size: 3.97rem;
   --h2--font-size: 3.15rem;
@@ -60,7 +56,6 @@
     --size--0-5rem: 0.25rem;
     --size--1rem: 1rem;
     --size--1-25rem: 1rem;
-    --size--1-5-2rem: 0.75rem;
     --size--1-5rem: 1.25rem;
     --size--1-75rem: 1.5rem;
     --size--2-1rem: 1rem;
@@ -91,14 +86,11 @@
     --border-radius--outer: 1.5625rem;
     --border-radius--inner: 1.5rem;
     --padding-horizontal--main: 1rem;
-    --big-card--width: 18rem;
-    --big-card--height: 14rem;
-    --sw-card--width: 20rem;
-    --sw-card--height: 18rem;
+    --big-card--width: 20rem;
+    --big-card--height: 18rem;
     --main-image1--width: 12.5rem;
     --main-image1--height: 15rem;
-    --main-image2--width: 11.5rem;
-    --main-image2--height: 14rem;
+    --developer-image--height: 26rem;
     --display--font-size: 2.03rem;
     --h1--font-size: 1.8rem;
     --h2--font-size: 1.6rem;
@@ -118,7 +110,6 @@
     --size--0-5rem: clamp(0.25rem, 0.1786rem + 0.3571cqw, 0.5rem);
     --size--1rem: clamp(1rem, 1rem + 0cqw, 1rem);
     --size--1-25rem: clamp(1rem, 0.9286rem + 0.3571cqw, 1.25rem);
-    --size--1-5-2rem: clamp(0.75rem, 0.6071rem + 0.7143cqw, 1.25rem);
     --size--1-5rem: clamp(1.25rem, 1.1786rem + 0.3571cqw, 1.5rem);
     --size--1-75rem: clamp(1.5rem, 1.4286rem + 0.3571cqw, 1.75rem);
     --size--2-1rem: clamp(1rem, 0.7143rem + 1.4286cqw, 2rem);
@@ -149,14 +140,11 @@
     --border-radius--outer: clamp(1.5625rem, 1.4196rem + 0.7143cqw, 2.0625rem);
     --border-radius--inner: clamp(1.5rem, 1.3571rem + 0.7143cqw, 2rem);
     --padding-horizontal--main: clamp(1rem, -0.8571rem + 9.2857cqw, 7.5rem);
-    --big-card--width: clamp(18rem, 5.6429rem + 61.7857cqw, 61.25rem);
-    --big-card--height: clamp(14rem, 7.2857rem + 33.5714cqw, 37.5rem);
-    --sw-card--width: clamp(20rem, 14rem + 30cqw, 41rem);
-    --sw-card--height: clamp(18rem, 15.1071rem + 14.4643cqw, 28.125rem);
+    --big-card--width: clamp(20rem, 8.2143rem + 58.9286cqw, 61.25rem);
+    --big-card--height: clamp(18rem, 12.4286rem + 27.8571cqw, 37.5rem);
     --main-image1--width: clamp(12.5rem, 11.5rem + 5cqw, 16rem);
     --main-image1--height: clamp(15rem, 13.8571rem + 5.7143cqw, 19rem);
-    --main-image2--width: clamp(11.5rem, 10.7857rem + 3.5714cqw, 14rem);
-    --main-image2--height: clamp(14rem, 13.1429rem + 4.2857cqw, 17rem);
+    --developer-image--height: clamp(26rem, 20.5714rem + 27.1429cqw, 45rem);
     --display--font-size: clamp(2.03rem, 1.1814rem + 4.2429cqw, 5rem);
     --h1--font-size: clamp(1.8rem, 1.18rem + 3.1cqw, 3.97rem);
     --h2--font-size: clamp(1.6rem, 1.1571rem + 2.2143cqw, 3.15rem);
@@ -169,6 +157,7 @@
     --text-small--font-size: clamp(0.875rem, 0.875rem + 0cqw, 0.875rem);
   }
 }
+
 :root {
   /* ====== FONTS ====== */
   --primary-font: "inter", sans-serif;
@@ -527,12 +516,13 @@ nav {
   position: absolute;
   bottom: 0%;
   right: 0%;
-  /* border: 1px solid black; */
+  height: 100%;
 }
 
-.hero-image img {
-  height: 700px;
-}
+/* .hero-image img {
+  height: var(--developer-image--height);
+  height: 100%;
+} */
 
 .about-section {
   width: 100%;
@@ -985,6 +975,10 @@ a.sw-item-button:hover {
 }
 
 @media screen and (max-width: 991px) {
+  .hero-image {
+    height: 90%;
+  }
+
   .about-me-grid {
     grid-template-rows: auto auto;
     grid-template-columns: 1fr;
@@ -1059,6 +1053,10 @@ a.sw-item-button:hover {
 }
 
 @media screen and (max-width: 450px) {
+  .hero-image {
+    height: 80%;
+  }
+
   .footer {
     padding: 1rem;
   }
