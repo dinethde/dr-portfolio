@@ -55,6 +55,7 @@ export default function Home() {
             <p className="hover:text-[#ff7300] transition-colors duration-300">of</p>
             <p className="hover:text-[#ff7300] transition-colors duration-300">everyone</p>
             <p className="hover:text-[#ff7300] transition-colors duration-300">I’ve</p>
+            <p className="hover:text-[#ff7300] transition-colors duration-300">ever</p>
             <p className="hover:text-[#ff7300] transition-colors duration-300">loved.</p>
           </div>
 
