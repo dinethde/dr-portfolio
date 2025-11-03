@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans text-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col justify-between py-20 px-16 sm:items-start">
         <div className="flex flex-col gap-1">
           <h1 className="text-[1rem] font-mono font-normal">
             Dineth Ransandu Silva
@@ -14,7 +14,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="flex flex-col items-center gap-4 text-center sm:items-start sm:text-left">
+        <div className="flex flex-col gap-4 sm:items-start sm:text-left">
           <p className="text-[1rem] font-mono font-normal">Whoami</p>
 
           <p className="text-[1rem] font-mono font-normal text-[#858585]">
@@ -48,29 +48,17 @@ export default function Home() {
         </div>
 
         <div>
-          <div className="flex gap-2 items-center font-mono font-normal">
-          <div>
-            <p>I</p>
+          <div className="flex gap-2 items-center font-mono font-normal cursor-heart">
+            <p className="hover:text-[#ff7300] transition-colors duration-300">I’m</p>
+            <p className="hover:text-[#ff7300] transition-colors duration-300">a</p>
+            <p className="hover:text-[#ff7300] transition-colors duration-300">mosaic</p>
+            <p className="hover:text-[#ff7300] transition-colors duration-300">of</p>
+            <p className="hover:text-[#ff7300] transition-colors duration-300">everyone</p>
+            <p className="hover:text-[#ff7300] transition-colors duration-300">I’ve</p>
+            <p className="hover:text-[#ff7300] transition-colors duration-300">loved.</p>
           </div>
 
-          <ChevronRight className="w-5 h-5" />
-
-          <p>Listen</p>
-
-          <ChevronRight className="w-5 h-5" />
-
-          <p>Design</p>
-
-          <ChevronRight className="w-5 h-5" />
-
-          <p>Build</p>
-
-          <RefreshCcw className="w-4 h-4 mx-2" />
-
-          <p>Iterate</p>
-        </div>
-
-        <p className="font-fuggles text-[4rem]">Dineth De Silva</p>
+          <p className="font-fuggles text-[4rem]">Dineth De Silva</p>
         </div>
       </main>
     </div>
