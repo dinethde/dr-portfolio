@@ -1,34 +1,76 @@
-import Image from "next/image";
+import { RefreshCcw } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <h1 className="text-2xl font-mono font-medium">
-          Dineth Ransandu Silva
-        </h1>
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="text-3xl font-semibold">
-            Portfolio is under maintenance
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans text-black">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
+        <div className="flex flex-col gap-1">
+          <h1 className="text-[1rem] font-mono font-normal">
+            Dineth Ransandu Silva
           </h1>
+          <h2 className="text-[1rem] font-mono font-normal text-[#858585]">
+            Fullstack Developer & Design Engineer
+          </h2>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://github.com/dinethde"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://lk.linkedin.com/in/dineth-de-silva-405029220"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Linkedin
-          </a>
+
+        <div className="flex flex-col items-center gap-4 text-center sm:items-start sm:text-left">
+          <p className="text-[1rem] font-mono font-normal">Whoami</p>
+
+          <p className="text-[1rem] font-mono font-normal text-[#858585]">
+            I’m a self-taught full-stack design engineer who builds clean, fast,
+            engaging web apps, with 5+ years of experience.
+          </p>
+
+          <p className="text-[1rem] font-mono font-normal text-[#858585]">
+            Currently interning at
+            <span className="text-highlighted ml-2">WSO2</span> on the Internal
+            Apps team, Contributing to
+            <span className="text-highlighted ml-2">
+              wso2-open-operations
+            </span>{" "}
+            and
+            <span className="text-highlighted ml-2">wso2-enterprise</span> and
+            studying Computer Science at the University of Westminster.
+          </p>
+
+          <p className="text-[1rem] font-mono font-normal text-[#858585]">
+            Building <span className="text-highlighted">#ds</span> a
+            minimalistic, clean design system that sync with your code.
+          </p>
+
+          <p className="text-[1rem] font-mono font-normal text-[#858585]">
+            This site is a temporary home while I rebuild my portfolio; I’m
+            building in public so you can
+            <a className="text-highlighted ml-2">follow along</a> and peek at
+            the work.
+          </p>
+        </div>
+
+        <div>
+          <div className="flex gap-2 items-center font-mono font-normal">
+          <div>
+            <p>I</p>
+          </div>
+
+          <ChevronRight className="w-5 h-5" />
+
+          <p>Listen</p>
+
+          <ChevronRight className="w-5 h-5" />
+
+          <p>Design</p>
+
+          <ChevronRight className="w-5 h-5" />
+
+          <p>Build</p>
+
+          <RefreshCcw className="w-4 h-4 mx-2" />
+
+          <p>Iterate</p>
+        </div>
+
+        <p className="font-fuggles text-[4rem]">Dineth De Silva</p>
         </div>
       </main>
     </div>
